@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 40%;
+    width: 50%;
+    background-color: rgb(139, 133, 133);
+
+}
+
+.inner{
+    height: 5%;
+    width: 0%;
+    background-color: green;
+    border-radius: 10px;
+}
